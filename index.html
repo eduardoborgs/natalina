@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Natal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
+</head>
+<body>
+
+    <div id="intro-screen">
+        <div class="intro-content">
+            <div class="gift-icon">🎁</div>
+            <h2>VOCÊ RECEBEU UMA MENSAGEM</h2>
+            <p>Toque em qualquer lugar para abrir</p>
+        </div>
+    </div>
+
+    <div id="main-site" class="hidden">
+        
+        <div class="christmas-lights-container">
+             <ul class="christmas-lights">
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+        </div>
+
+        <div id="snow-container"></div>
+
+        <main class="content-wrapper">
+            
+            <div class="image-container">
+                <img src="foto-edu-final.jpg" alt="Edu desejando Feliz Natal" class="main-photo">
+            </div>
+            
+            <div class="text-block">
+                <h1 class="main-title cursive-gold">Feliz Natal</h1>
+                
+                <p class="body-text">
+                    Que a magia desta época ilumine seus caminhos e aqueça seu coração.
+                </p>
+                <p class="body-text">
+                    Desejo que este Natal seja repleto de sorrisos sinceros, abraços apertados e momentos de pura paz. Que o novo ano chegue trazendo esperança, saúde e a realização dos seus sonhos mais bonitos.
+                </p>
+                <p class="body-text highlight">
+                    Obrigado por fazer parte da minha história.
+                </p>
+
+                <div class="signature-block">
+                    <p class="cursive-gold signature-start">Com carinho,</p>
+                    <p class="signature-name">Edu</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="music-control">
+            <button id="music-btn" aria-label="Controlar música">
+                <span>🔊</span>
+            </button>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
